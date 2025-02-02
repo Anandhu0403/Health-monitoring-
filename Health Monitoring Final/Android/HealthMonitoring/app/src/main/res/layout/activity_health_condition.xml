@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".HealthConditionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Condition"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/healthConditionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/rect_bg"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/exerciseHintTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Heart Rate on\nthe AHR and SPO2"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/exercisesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_button"
+        android:text="Get Exercises"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/warningImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/warning"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"/>
+
+</LinearLayout>
